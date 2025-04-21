@@ -1,5 +1,2 @@
-[phases.setup]
-nixpkgsArchive = "nixpkgs-unstable"
-
 [start]
 cmd = "npm run start"
