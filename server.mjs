@@ -71,6 +71,6 @@ app.post('/api/pix', async (req, res) => {
   }
 });
 
-app.listen(PORT, () => {
+pp.listen(PORT, '0.0.0.0', () => {
   console.log(`🔥 Server do Pix rodando com Checkout LivePix em http://localhost:${PORT}`);
 });
